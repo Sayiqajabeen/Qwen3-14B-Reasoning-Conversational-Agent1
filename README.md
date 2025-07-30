@@ -30,6 +30,14 @@ This notebook showcases:
   - Source: Hugging Face
   - License: Apache 2.0
 
+## Features
+
+ - Combines mathematical reasoning (OpenMathReasoning dataset) with conversational abilities (FineTome-100k dataset)
+ - Uses 4-bit quantization for memory efficiency
+ - Implements LoRA adapters for parameter-efficient finetuning
+ - Supports both reasoning and chat modes with different temperature settings
+ - Export options for GGUF/llama.cpp and 16-bit models
+
 ## ✅ Requirements.txt
   - torch>=2.1.0
   - transformers>=4.40.0
