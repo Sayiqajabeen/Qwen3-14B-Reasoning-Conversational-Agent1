@@ -25,11 +25,27 @@ This notebook showcases:
 ---
 
 ## 🧠 Model Info
- 
+
 ```python
 # Model: Qwen1.5-14B-Chat
 # Source: Hugging Face
 # License: Apache 2.0
+
+from transformers import AutoTokenizer, AutoModelForCausalLM
+
+model_name = "Qwen/Qwen1.5-14B-Chat"
+
+# Load the tokenizer
+tokenizer = AutoTokenizer.from_pretrained(model_name, trust_remote_code=True)
+
+# Load the model
+model = AutoModelForCausalLM.from_pretrained(
+    model_name,
+    device_map="auto",
+    torch_dtype="auto",
+    trust_remote_code=True
+)
+
 
 ## ✅ Requirements.txt
   torch>=2.1.0
