@@ -30,13 +30,12 @@ This notebook showcases:
   - Source: Hugging Face
   - License: Apache 2.0
 
-
-
 ## ✅ Requirements.txt
-  torch>=2.1.0
-  transformers>=4.40.0
-  accelerate>=0.27.0
-  sentencepiece>=0.1.99
+  - torch>=2.1.0
+  - transformers>=4.40.0
+  - accelerate>=0.27.0
+  - sentencepiece>=0.1.99
+
 
 ## ⚙️ Setup & Installation
 
