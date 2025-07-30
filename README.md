@@ -26,9 +26,9 @@ This notebook showcases:
 
 ## 🧠 Model Info
 
-# Model: Qwen1.5-14B-Chat
-# Source: Hugging Face
-# License: Apache 2.0
+  - Model: Qwen1.5-14B-Chat
+  - Source: Hugging Face
+  - License: Apache 2.0
 
 
 
