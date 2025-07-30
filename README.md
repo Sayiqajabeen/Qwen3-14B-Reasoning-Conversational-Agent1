@@ -30,7 +30,16 @@ This notebook showcases:
   - Source: Hugging Face
   - License: Apache 2.0
 
-## Features
+## 📄 Datasets
+   - OpenMathReasoning-mini (19252 samples)
+   - FineTome-100k (100000 samples, subsampled)
+
+## 📘 Performance
+   - Trained on Tesla T4 GPU (16GB VRAM)
+   - Batch size: 8 (2 per device × 4 gradient accumulation)
+   - Training time: ~40 minutes for 30 steps
+
+## 📌 Features
 
  - Combines mathematical reasoning (OpenMathReasoning dataset) with conversational abilities (FineTome-100k dataset)
  - Uses 4-bit quantization for memory efficiency
